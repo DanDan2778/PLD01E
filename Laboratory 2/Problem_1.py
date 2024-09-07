@@ -51,3 +51,5 @@ print("Final Research/Assignments: ", final_research)
 print("Final Project:", final_project)
 print("Final Grade:", f"{final_grade:.2f}")
 print("Equivalent Grading Remark:", remark)
+
+print("Mahal Kita")
