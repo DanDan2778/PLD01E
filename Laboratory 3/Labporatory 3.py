@@ -5,6 +5,8 @@ department = ""
 employeeCode = 0
 employeeName = ""
 salaryDateCutOff = ""
+startDate = ""
+endDate = ""
 ratePerHour = 0
 hoursPerDay = 0
 hoursOvertimed = 0
@@ -20,18 +22,20 @@ philhealth = 0
 companyName = input("Company Name: ")
 department = input("Departmet: ")
 employeeName = input("Employee Name: ")
-salaryDateCutOff = input("Salary Date Cut-Off (mm/dd/yyy): ")
+print("Salary Date Cut-off:")
+startDate = input(" Start Date (mm/dd/yyyy): ")
+endDate = input("   End Date(mm/dd/yyyy): ")
 ratePerHour = float(input("Rate Per Hour: "))
 hoursPerDay = float(input("Number of Hours Per Day: "))
 hoursOvertimed = float(input("Number of Hours Overtimed: "))
 hoursOfAbsences = float(input("Number Of Hours of Absences: "))
 noOfHours = float(input("No of Hours: "))
 hoursOfTardiness = float(input("Number of Hours of Tardiness: "))
-startDate = input("Start Date (mm/dd/yyyy): ")
-endDate = input("End Date(mm/dd/yyyy): ")
+
 
 
 payPeriod = f"{startDate} to {endDate}"
+salaryDateCutOff = payPeriod
 
 # Formulating a for Basic Pay, Overtime Pay, Absences, Honorarium, Tardiness
 
@@ -142,8 +146,7 @@ netPay = grossEarning - deductions
 
 # Display Pay Check
 
-print("======================================================================")
-print("")
+print("\n======================================================================")
 print("Company Name: ", companyName)
 print("Employee Code: ", employeeCode)
 print("Employee Name: ", employeeName)
@@ -162,4 +165,4 @@ print("PhilHealth Contribution: ", philhealth)
 print("Deductions: ", deductions)
 print("Gross Earnings: ", grossEarning)
 print("Net Pay: ", netPay)
-print("======================================================================")
+print("======================================================================\n")
