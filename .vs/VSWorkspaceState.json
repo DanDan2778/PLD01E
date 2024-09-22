@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\GUI",
     "\\Laboratory 2",
     "\\Laboratory 3"
   ],
-  "SelectedNode": "\\Laboratory 3\\Labporatory 3.py",
+  "SelectedNode": "\\GUI\\log-in_form.py",
   "PreviewInSolutionExplorer": false
 }
