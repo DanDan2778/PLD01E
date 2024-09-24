@@ -14,7 +14,7 @@ hours_of_absences = 0
 no_of_hours = 0
 hours_of_tardiness = 0
 sss_contrib = 0
-witholding_tax = 0
+withholding_tax = 0
 philhealth_contrib = 0
 pagibig_contri = 100
 gross_income = 0
@@ -53,18 +53,18 @@ gross_earning = basic_pay + overtime + honorarium
 
 # Withholding Tax
 
-if 0 <= gross_earning <= 20833:
-    witholding_tax = 0.00
-elif 20833 <= gross_earning <= 33332:
-    witholding_tax = 0.15 / 20833
-elif 33333 <= gross_earning <= 66666:
-    witholding_tax = (1875 + 0.20) / 33333
-elif 66667 <= gross_earning <= 166666:
-    witholding_tax = (8547.80 + 0.25) / 66667
-elif 166667 <= gross_earning <= 666666:
-    witholding_tax = (33541.80 + 0.30) / 166667
+if 0 <= gross_earning <= 10417:
+    withholding_tax = 0.00
+elif 10418 <= gross_earning <= 16666:
+    withholding_tax = 0.15 / 10417
+elif 16667 <= gross_earning <= 33332:
+    withholding_tax = (937.50 + 0.20) / 16667
+elif 33333 <= gross_earning <= 83332:
+    withholding_tax = (4270.70 + 0.25) / 33333
+elif 83333 <= gross_earning <= 333332:
+    withholding_tax = (16770.70 + 0.30) / 83333
 else:
-    witholding_tax = (183541.80 + 0.35) / 666667
+    withholding_tax = (91770.70 + 0.35) / 333333
 
 # SSS Contribution
 
@@ -141,7 +141,7 @@ philhealth_contrib = basic_pay * 0.0225
 
 # Formulating a For Total Deduction and Net Income
 
-total_deduction = sss_contrib + witholding_tax + philhealth_contrib + pagibig_contri
+total_deduction = sss_contrib + withholding_tax + philhealth_contrib + pagibig_contri
 net_income = gross_earning - total_deduction
 
 # Displaying the Employee's Payroll
@@ -157,7 +157,7 @@ print("Overtime Pay:", f"{overtime:.2f}")
 print("Absences:", f"{absences:.2f}")
 print("Honorarium:", f"{honorarium:.2f}")
 print("Tardiness:", f"{tardiness:.2f}")
-print("Withholding Tax:", f"{witholding_tax:.2f}")
+print("Withholding Tax:", f"{withholding_tax:.2f}")
 print("SSS Contribution:", f"{sss_contrib:.2f}")
 print("Pag-Ibig Contribution:", f"{pagibig_contri:.2f}")
 print("PhilHealth Contribution:", f"{philhealth_contrib:.2f}")

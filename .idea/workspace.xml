@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="919dbf89-7f89-4144-a2dd-025c75cf9271" name="Changes" comment="" />
+    <list default="true" id="919dbf89-7f89-4144-a2dd-025c75cf9271" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/PLD01E/CopilotIndices/0.2.1653.9816/CodeChunks.db" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/PLD01E/CopilotIndices/0.2.1653.9816/CodeChunks.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/PLD01E/CopilotIndices/0.2.1653.9816/SemanticSymbols.db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/PLD01E/CopilotIndices/0.2.1653.9816/SemanticSymbols.db-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/PLD01E/CopilotIndices/0.2.1653.9816/SemanticSymbols.db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/PLD01E/CopilotIndices/0.2.1653.9816/SemanticSymbols.db-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/PLD01E/FileContentIndex/088e7c15-49c7-4472-9f5b-a955a67a5135.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/PLD01E/FileContentIndex/a96c377f-540a-458e-a8f1-727f6263856e.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/PLD01E/FileContentIndex/d1c5136f-349e-464c-8c8a-2de52127e88e.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/PLD01E/v17/.wsuo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/PLD01E/v17/.wsuo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/PLD01E/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/PLD01E/v17/DocumentLayout.backup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/PLD01E/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/PLD01E/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratory 3/Laboratory_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratory 3/Laboratory_3.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
