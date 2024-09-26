@@ -6,9 +6,8 @@ employee_code = 0
 employee_name = ""
 salary_date_cut_off = ""
 start_date = ""
-end_date = ""
 rate_per_hour = 0
-hours_per_day = 0
+hours_per_payday = 0
 hours_overtimed = 0
 hours_of_absences = 0
 no_of_hours = 0
@@ -25,11 +24,10 @@ company_name = input("Company Name: ")
 department = input("Department: ")
 employee_code = int(input("Employee Code: "))
 employee_name = input("Employee Name: ")
-print("Salary Date Cut-off:")
+salary_date_cut_off = input("Salary Date Cut-off (mm/dd/yyyy): ")
 start_date = input("Start Date (mm/dd/yyyy): ")
-end_date = input("End Date (mm/dd/yyyy): ")
 rate_per_hour = float(input("Rate Per Hour: "))
-hours_per_day = float(input("Number of Hours Per Day: "))
+hours_per_payday = float(input("Number of Hours Per PayDay: "))
 hours_overtimed = float(input("Number of Hours Overtimed: "))
 hours_of_absences = float(input("Number of Hours of Absences: "))
 no_of_hours = float(input("Number of Hours: "))
@@ -37,12 +35,11 @@ hours_of_tardiness = float(input("Number of Hours of Tardiness: "))
 
 # Setting the Pay Period and Salary Date Cut-Off
 
-pay_period = f"{start_date} to {end_date}"
-salary_date_cut_off = pay_period
+pay_period = f"{start_date} to {salary_date_cut_off}"
 
 # Formulating a For Basic Pay, Overtime Pay, Absences, Honorarium, Tardiness, and Gross Earning
 
-basic_pay = rate_per_hour * hours_per_day
+basic_pay = rate_per_hour * hours_per_payday
 overtime = hours_overtimed * rate_per_hour
 absences = hours_of_absences * rate_per_hour
 honorarium = no_of_hours * rate_per_hour
@@ -56,15 +53,15 @@ gross_earning = basic_pay + overtime + honorarium
 if 0 <= gross_earning <= 10417:
     withholding_tax = 0.00
 elif 10418 <= gross_earning <= 16666:
-    withholding_tax = 0.15 / 10417
+    withholding_tax = (0.15 * (gross_earning - 10417))
 elif 16667 <= gross_earning <= 33332:
-    withholding_tax = (937.50 + 0.20) / 16667
+    withholding_tax = 937.50 + (0.20 * (gross_earning - 16666))
 elif 33333 <= gross_earning <= 83332:
-    withholding_tax = (4270.70 + 0.25) / 33333
+    withholding_tax = 4270.70 + (0.25 * (gross_earning - 33332))
 elif 83333 <= gross_earning <= 333332:
-    withholding_tax = (16770.70 + 0.30) / 83333
+    withholding_tax = 16770.70 + (0.30 * (gross_earning - 83332))
 else:
-    withholding_tax = (91770.70 + 0.35) / 333333
+    withholding_tax = 91770.70 + (0.35 * (gross_earning - 333332))
 
 # SSS Contribution
 
@@ -151,6 +148,7 @@ print("\nCompany Name:", company_name)
 print("Employee Code/Number: ", employee_code)
 print("Employee Name:", employee_name)
 print("Department:", department)
+print("Salary Date Cut-Off: ", salary_date_cut_off)
 print("Pay Period:", pay_period)
 print("Basic Pay:", f"{basic_pay:.2f}")
 print("Overtime Pay:", f"{overtime:.2f}")
