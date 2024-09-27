@@ -1,4 +1,4 @@
-# Initialization of Employee's Information
+# Initialization of Employee's and Company Information
 
 company_name = ""
 department = ""
@@ -18,14 +18,16 @@ philhealth_contrib = 0
 pagibig_contri = 100
 gross_income = 0
 
-# Getting the values of Company Name, Department, Employee Code, Employee Name, Salary Date Cut-Off, Rate per Hour, Hours per Day, Hours Overtimed, Hours of Absences, Number of Hours, Hours of Tardiness
+# Getting the values of Company Name, Department, Employee Code, Employee Name, 
+# Salary Date Cut-Off, Start Date, Rate per Hour, Hours per Day, Hours Overtimed, Hours of 
+# Absences, Number of Hours, Hours of Tardiness
 
 company_name = input("Company Name: ")
 department = input("Department: ")
 employee_code = int(input("Employee Code: "))
 employee_name = input("Employee Name: ")
-salary_date_cut_off = input("Salary Date Cut-off (mm/dd/yyyy): ")
-start_date = input("Start Date (mm/dd/yyyy): ")
+salary_date_cut_off = input("Salary Date Cut-off: ")
+start_date = input("Start Date: ")
 rate_per_hour = float(input("Rate Per Hour: "))
 hours_per_payday = float(input("Number of Hours Per PayDay: "))
 hours_overtimed = float(input("Number of Hours Overtimed: "))
@@ -33,11 +35,12 @@ hours_of_absences = float(input("Number of Hours of Absences: "))
 no_of_hours = float(input("Number of Hours: "))
 hours_of_tardiness = float(input("Number of Hours of Tardiness: "))
 
-# Setting the Pay Period and Salary Date Cut-Off
+# Setting the Pay Period
 
 pay_period = f"{start_date} to {salary_date_cut_off}"
 
-# Formulating a For Basic Pay, Overtime Pay, Absences, Honorarium, Tardiness, and Gross Earning
+# Formulating a For Basic Pay, Overtime Pay, Absences, Honorarium, 
+# Tardiness, and Gross Earning
 
 basic_pay = rate_per_hour * hours_per_payday
 overtime = hours_overtimed * rate_per_hour
@@ -46,9 +49,10 @@ honorarium = no_of_hours * rate_per_hour
 tardiness = hours_of_tardiness * rate_per_hour
 gross_earning = basic_pay + overtime + honorarium
 
-# Determining the Withholding Tax, SSS Contribution, and PhilHealth Contribution
+# Determining the Withholding Tax, SSS Contribution, and PhilHealth Contribution 
+# Based on the Gross Earning
 
-# Withholding Tax
+# Value of Withholding Tax Based on the Gross Earning
 
 if 0 <= gross_earning <= 10417:
     withholding_tax = 0.00
@@ -63,7 +67,7 @@ elif 83333 <= gross_earning <= 333332:
 else:
     withholding_tax = 91770.70 + (0.35 * (gross_earning - 333332))
 
-# SSS Contribution
+# Value of SSS Contribution Based on the Gross Earning
 
 if 0 <= gross_earning < 4250:
     sss_contrib = 180
@@ -132,16 +136,20 @@ elif 19250 <= gross_earning <= 19749.99:
 else:
     sss_contrib = 900.00
 
-# PhilHealth Contribution
+# Value of PhilHealth Contribution Based on the Gross Earning
+if (gross_earning < 10000):
+    philhealth_contrib = 10000 * 0.05
+elif (10001 <= gross_earning <= 99999.99):
+    philhealth_contrib = gross_earning * 0.05
+else:
+    philhealth_contrib = 100000 * 0.05
 
-philhealth_contrib = basic_pay * 0.0225
+# Formulating a Formula for Total Deduction and Net Income
 
-# Formulating a For Total Deduction and Net Income
-
-total_deduction = sss_contrib + withholding_tax + philhealth_contrib + pagibig_contri
+total_deduction = absences + tardiness + sss_contrib + withholding_tax + philhealth_contrib + pagibig_contri
 net_income = gross_earning - total_deduction
 
-# Displaying the Employee's Payroll
+# Displaying the Employee's Payroll/Income Information including the Company Information
 
 print("====================================================================================================")
 print("\nCompany Name:", company_name)

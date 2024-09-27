@@ -1,4 +1,6 @@
-gross_earning = 88000 
+gross_earning = 5000
+
+
 
 
 if 0 <= gross_earning <= 10417:
@@ -15,3 +17,13 @@ else:
     withholding_tax = 91770.70 + (0.35 * (gross_earning - 333332))
 
 print(f"Withholding Tax: {withholding_tax: .2f}\n")
+
+
+if (gross_earning < 10000):
+    philhealth_contrib = 10000 * 0.05
+elif (10001 <= gross_earning <= 99999.99):
+    philhealth_contrib = gross_earning * 0.05
+else:
+    philhealth_contrib = 100000 * 0.05
+
+print(f"PhilHealth Contribution: {philhealth_contrib: .2f}\n")
