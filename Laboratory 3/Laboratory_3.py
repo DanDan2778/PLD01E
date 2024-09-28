@@ -1,27 +1,9 @@
 # Initialization of Employee's and Company Information
-
-company_name = ""
-department = ""
-employee_code = 0
-employee_name = ""
-salary_date_cut_off = ""
-start_date = ""
-rate_per_hour = 0
-hours_per_payday = 0
-hours_overtimed = 0
-hours_of_absences = 0
-no_of_hours = 0
-hours_of_tardiness = 0
-sss_contrib = 0
-withholding_tax = 0
-philhealth_contrib = 0
 pagibig_contri = 100
-gross_income = 0
 
 # Getting the values of Company Name, Department, Employee Code, Employee Name, 
 # Salary Date Cut-Off, Start Date, Rate per Hour, Hours per Day, Hours Overtimed, Hours of 
 # Absences, Number of Hours, Hours of Tardiness
-
 company_name = input("Company Name: ")
 department = input("Department: ")
 employee_code = int(input("Employee Code: "))
@@ -36,12 +18,10 @@ no_of_hours = float(input("Number of Hours: "))
 hours_of_tardiness = float(input("Number of Hours of Tardiness: "))
 
 # Setting the Pay Period
-
 pay_period = f"{start_date} to {salary_date_cut_off}"
 
 # Formulating a For Basic Pay, Overtime Pay, Absences, Honorarium, 
 # Tardiness, and Gross Earning
-
 basic_pay = rate_per_hour * hours_per_payday
 overtime = hours_overtimed * rate_per_hour
 absences = hours_of_absences * rate_per_hour
@@ -53,7 +33,6 @@ gross_earning = basic_pay + overtime + honorarium
 # Based on the Gross Earning
 
 # Value of Withholding Tax Based on the Gross Earning
-
 if 0 <= gross_earning <= 10417:
     withholding_tax = 0.00
 elif 10418 <= gross_earning <= 16666:
@@ -68,7 +47,6 @@ else:
     withholding_tax = 91770.70 + (0.35 * (gross_earning - 333332))
 
 # Value of SSS Contribution Based on the Gross Earning
-
 if 0 <= gross_earning < 4250:
     sss_contrib = 180
 elif 4250 <= gross_earning <= 4749.99:
@@ -137,21 +115,19 @@ else:
     sss_contrib = 900.00
 
 # Value of PhilHealth Contribution Based on the Gross Earning
-if (gross_earning < 10000):
+if gross_earning < 10000:
     philhealth_contrib = 10000 * 0.05
-elif (10001 <= gross_earning <= 99999.99):
+elif 10001 <= gross_earning <= 99999.99:
     philhealth_contrib = gross_earning * 0.05
 else:
     philhealth_contrib = 100000 * 0.05
 
 # Formulating a Formula for Total Deduction and Net Income
-
 total_deduction = absences + tardiness + sss_contrib + withholding_tax + philhealth_contrib + pagibig_contri
 net_income = gross_earning - total_deduction
 
 # Displaying the Employee's Payroll/Income Information including the Company Information
-
-print("====================================================================================================")
+print("\n====================================================================================================")
 print("\nCompany Name:", company_name)
 print("Employee Code/Number: ", employee_code)
 print("Employee Name:", employee_name)
