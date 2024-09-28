@@ -6,7 +6,7 @@ pagibig_contri = 100
 # Absences, Number of Hours, Hours of Tardiness
 company_name = input("Company Name: ")
 department = input("Department: ")
-employee_code = int(input("Employee Code: "))
+employee_code = str(input("Employee Code: "))
 employee_name = input("Employee Name: ")
 salary_date_cut_off = input("Salary Date Cut-off: ")
 start_date = input("Start Date: ")
