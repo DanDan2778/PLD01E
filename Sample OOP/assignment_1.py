@@ -1,6 +1,3 @@
-from ctypes.wintypes import HACCEL
-
-
 class Employee:
 
     # initialization
