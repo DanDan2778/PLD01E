@@ -54,9 +54,14 @@ class AssessmentFee:
         return self.tuition
 
     def assessment_amount(self):
-        self.assessment_fee = self.tuition_fee() + self.chronicle + self.athletic_fee + self.audio_visual_lib + self.student_government + self.culture + self.energy_cost_aircon_classroom + self.guidance + self.insurance + self.learning_management_system + self.library + self.medical_dental + self.registration + self.recognized_student_gov + self.student_activities + self.student_nurturance + self.technology + self.test_paper
-        
-
+        return (self.tuition_fee() + self.chronicle +
+                self.athletic_fee + self.audio_visual_lib +
+                self.student_government + self.culture +
+                self.energy_cost_aircon_classroom + self.guidance +
+                self.insurance + self.learning_management_system +
+                self.library + self.medical_dental + self.registration +
+                self.recognized_student_gov + self.student_activities +
+                self.student_nurturance + self.technology + self.test_paper)
 
     def display(self):
         print(f"Total Tuition Fee: {self.tuition_fee()}")
