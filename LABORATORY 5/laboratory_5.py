@@ -1,3 +1,4 @@
+# Class for Student Information
 class Student:
 
     # Initialization
@@ -20,14 +21,18 @@ class Student:
             unit = int(input("Enter Unit: "))
             self.subject_info.append((section, subject, unit))
 
+    # getting the sum of units
     def sum_units(self):
         return sum(unit for _, _, unit in self.subject_info)
 
 
+# Class for Assessment Fee
 class AssessmentFee:
+
+    # Getting the Value for Student Assessment Fees
     def __init__(self, student):
         self.student = student
-        self.total_units = 0
+        self.total_units = self.student.sum_units()
         self.tuition = 0
         self.chronicle = float(input("Enter ADU Chronicle Fee: "))
         self.athletic_fee = float(input("Enter Athletic Fee: "))
@@ -48,11 +53,12 @@ class AssessmentFee:
         self.test_paper = float(input("Enter Test Papers Fee: "))
         self.downpayment = float(input("Enter Downpayment: "))
 
+    # Formulating a Formula for Tuition Fee
     def tuition_fee(self):
-        self.total_units = self.student.sum_units()
         self.tuition = self.total_units * 1500.00
         return self.tuition
 
+    # Formulating a Formula for Total Assessment Amount
     def assessment_amount(self):
         return (self.tuition_fee() + self.chronicle +
                 self.athletic_fee + self.audio_visual_lib +
@@ -63,14 +69,6 @@ class AssessmentFee:
                 self.recognized_student_gov + self.student_activities +
                 self.student_nurturance + self.technology + self.test_paper)
 
-    def display(self):
-        print(f"Total Tuition Fee: {self.tuition_fee()}")
-
-
-students = Student()
-students.student_subjects()
-students.sum_units()
-
-assessment = AssessmentFee(students)
-assessment.tuition_fee()
-assessment.display()
+    # Formulating a Formula for Total Due
+    def total_due(self):
+        return self.assessment_amount() - self.downpayment
