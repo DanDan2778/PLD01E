@@ -21,6 +21,8 @@ def display_student_information():
     print("-" * (section_width + subject_width + unit_width + 15))
     print(f"{' ':<{section_width + subject_width}} Total Units: {student.sum_units():<{unit_width}}")
     print("-" * (section_width + subject_width + unit_width + 15))
+    print(f"Date Printed: {student.date_printed}".center(section_width + subject_width + unit_width + 15))
+    print('-' * (section_width + subject_width + unit_width + 15))
 
 # Displaying Assessment Fee
 def display_assessment_fee():
@@ -53,14 +55,20 @@ def display_assessment_fee():
     print(f"Total Due: {assessment.total_due():<{unit_width}}")
     print('-' * (section_width + subject_width + unit_width + 15))
     print("\n")
-    print('-' * (section_width + subject_width + unit_width + 15))
-    print("Schedule of Payment of outstancding balance after downpayment prior for: ")
-    print('-' * (section_width + subject_width + unit_width + 15))
-    print("Prelim:", assessment.total_due() / 3)
-    print("Midterm:", assessment.total_due() / 3)
-    print("Final:", assessment.total_due() / 3)
-    print('-' * (section_width + subject_width + unit_width + 15))
-    print(f"Date Printed: {student.date_printed}")
+
+def display_schedule_of_payment():
+    print('=' * (section_width + subject_width + unit_width + 15))
+    print("Schedule of Payment of outstanding balance after downpayment prior for: ".center(section_width + subject_width + unit_width + 15))
+    print('=' * (section_width + subject_width + unit_width + 15))
+    print(f"Prelim:, {assessment.total_due() / 3}".center(section_width + subject_width + unit_width + 15))
+    print(f"Midterm: {assessment.total_due() / 3}".center(section_width + subject_width + unit_width + 15))
+    print(f"Final: {assessment.total_due() / 3}".center(section_width + subject_width + unit_width + 15))
+    print('=' * (section_width + subject_width + unit_width + 15))
+    print("*There will be a 60% surcharge for late payment.".center(section_width + subject_width + unit_width + 15))
+    print('=' * (section_width + subject_width + unit_width + 15))
+    print("THIS IS A TEMPORARY ASSESSMENT".center(section_width + subject_width + unit_width + 15))
+    print('=' * (section_width + subject_width + unit_width + 15))
 
 display_student_information()
 display_assessment_fee()
+display_schedule_of_payment()

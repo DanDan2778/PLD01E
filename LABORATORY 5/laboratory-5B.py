@@ -20,5 +20,7 @@ def display_student_information():
     print("-" * (section_width + subject_width + unit_width + 15))
     print(f"{' ':<{section_width + subject_width}} Total Units: {student.sum_units():<{unit_width}}")
     print("-" * (section_width + subject_width + unit_width + 15))
+    print(f"Date Printed: {student.date_printed}")
+    print('-' * (section_width + subject_width + unit_width + 15))
 
 display_student_information()

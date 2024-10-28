@@ -1,19 +1,21 @@
 import laboratory_5
 
 # Initialization and Getting the Values of Student Information
-student = laboratory_5.Student()
-assessment = laboratory_5.AssessmentFee(student)
 section_width = 10
 subject_width = 40
 unit_width = 10
 
+def display_student_information():
+
+    print(f"\n\n\nStudent Name: {student.student_name:<30} Student Number: {student.student_number:<15}")
+    print(f"Student Course: {student.student_course:<30} Academic Year: {student.academic_year:<15}")
+
 # Displaying Assessment Fee
 def display_assessment_fee():
-    print("\n")
     print("-" * (section_width + subject_width + unit_width + 15))
     print("Assessment Fee")
     print("-" * (section_width + subject_width + unit_width + 15))
-    print(f"Tuition Fee Lecture: {assessment.tuition_fee():<{unit_width}}")
+    print(f"Tution Fee Lecture: {assessment.tuition_fee():<{unit_width}}")
     print(f"LPU Chronicle: {assessment.chronicle:<{unit_width}}")
     print(f"Athletic: {assessment.athletic_fee:<{unit_width}}")
     print(f"Audio Visual Library: {assessment.audio_visual_lib:<{unit_width}}")
@@ -38,13 +40,23 @@ def display_assessment_fee():
     print(f"Total Due: {assessment.total_due():<{unit_width}}")
     print('-' * (section_width + subject_width + unit_width + 15))
     print("\n")
-    print('-' * (section_width + subject_width + unit_width + 15))
+
+def display_schedule_of_payment():
+    print('=' * (section_width + subject_width + unit_width + 15))
     print("Schedule of Payment of outstanding balance after downpayment prior for: ")
-    print('-' * (section_width + subject_width + unit_width + 15))
+    print('=' * (section_width + subject_width + unit_width + 15))
     print("Prelim:", assessment.total_due() / 3)
     print("Midterm:", assessment.total_due() / 3)
     print("Final:", assessment.total_due() / 3)
-    print('-' * (section_width + subject_width + unit_width + 15))
-    print(f"Date Printed: {student.date_printed}")
+    print('=' * (section_width + subject_width + unit_width + 15))
+    print("*There will be a 60% surcharge for late payment.")
+    print('=' * (section_width + subject_width + unit_width + 15))
+    print("THIS IS A TEMPORARY ASSESSMENT")
+    print('=' * (section_width + subject_width + unit_width + 15))
 
+student = laboratory_5.Student()
+student.student_subjects()
+assessment = laboratory_5.AssessmentFee(student)
+display_student_information()
 display_assessment_fee()
+display_schedule_of_payment()
