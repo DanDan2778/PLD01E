@@ -17,8 +17,7 @@ def student_information():
     print(f"{"Student Name:":<15} {student.student_name:<60} {"Student Number:":<15} {student.student_number:<10}")
     print(f"{"Student Course:":<15} {student.student_course:<60} {"Academic Year:":<15} {student.academic_year:<10}")
     print("-" * (section_width + subject_width + unit_width), "|", "-" * (assessment_width + unit_width))
-    print(f"{'Section':<{section_width}}{'Subject':^
-    {subject_width}} {'Units':<{unit_width - 1}} | {'Assessment of Fees':^{assessment_width + unit_width}}")
+    print(f"{'Section':<{section_width}}{'Subject':^{subject_width}} {'Units':<{unit_width - 1}} | {'Assessment of Fees':^{assessment_width + unit_width}}")
     print(f"{'-' * (section_width + subject_width + unit_width)} | {'-' * (assessment_width + unit_width)}")
 
 def subjects_assessment_fee():
@@ -56,16 +55,16 @@ def subjects_assessment_fee():
     print(f"{' ' * (section_width + subject_width + unit_width)} | ")
 
 def schedule_of_payment():
-    #due = assessment.total_due() / 3
-    due = 17000
-    print(f"{' ' * (section_width + subject_width + unit_width)} | |{'-' * (47)}|")
+
+    due = round(assessment.total_due() / 3, 2)
+    print(f"{' ' * (section_width + subject_width + unit_width)} | |{'-' * 47}|")
     print(f"{' ' * (section_width + subject_width + unit_width)} | |{'Schedule of Payment':^{47}}|")
     print(f"{' ' * (section_width + subject_width + unit_width)} | |{'of outstanding balance':^{47}}|")
     print(f"{' ' * (section_width + subject_width + unit_width)} | |{'after downpayment prior to: ':^{47}}|")
-    print(f"{' ' * (section_width + subject_width + unit_width)} | |{' ' * (5)}{'Prelim:':<{27}} {due:<{14}}|")
-    print(f"{' ' * (section_width + subject_width + unit_width)} | |{' ' * (5)}{'Midterm:':<{27}} {due:<{14}}|")
-    print(f"{' ' * (section_width + subject_width + unit_width)} | |{' ' * (5)}{'Finals:':<{27}} {due:<{14}}|")
-    print(f"{' ' * (section_width + subject_width + unit_width)} | |{'-' * (47)}|")
+    print(f"{' ' * (section_width + subject_width + unit_width)} | |{' ' * 5}{'Prelim:':<{27}} {due:<{14}}|")
+    print(f"{' ' * (section_width + subject_width + unit_width)} | |{' ' * 5}{'Midterm:':<{27}} {due:<{14}}|")
+    print(f"{' ' * (section_width + subject_width + unit_width)} | |{' ' * 5}{'Finals:':<{27}} {due:<{14}}|")
+    print(f"{' ' * (section_width + subject_width + unit_width)} | |{'-' * 47}|")
     print(f"{' ' * (section_width + subject_width + unit_width)} |  {'*There will be a 6% surcharge p.a.':^{47}} ")
     print(f"{'Registrar':^{section_width + subject_width + unit_width}} |  {'for late payment':^{47}} ")
 

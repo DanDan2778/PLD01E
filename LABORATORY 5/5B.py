@@ -16,8 +16,7 @@ def student_information():
     print(f"{"Student Name:":<15} {student.student_name:<60} {"Student Number:":<15} {student.student_number:<10}")
     print(f"{"Student Course:":<15} {student.student_course:<60} {"Academic Year:":<15} {student.academic_year:<10}")
     print("-" * (section_width + subject_width + unit_width), "|", "-" * (assessment_width + unit_width))
-    print(f"{'Section':<{section_width}}{'Subject':^
-    {subject_width}} {'Units':<{unit_width - 1}} | ")
+    print(f"{'Section':<{section_width}}{'Subject':^{subject_width}} {'Units':<{unit_width - 1}} | ")
     print(f"{'-' * (section_width + subject_width + unit_width)} | {'-' * (assessment_width + unit_width)}")
 
 def subjects_assessment_fee():
