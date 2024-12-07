@@ -74,8 +74,7 @@ def date_printed():
      print(f"{'-' * (section_width + subject_width + unit_width)} | {'-' * (assessment_width + unit_width)}")
      print(f"{'THIS IS A NON-SCHOLAR STUDENT':^{59}}")
 
-
-
+# Calling Classes
 student_information()
 subjects_assessment_fee()
 schedule_of_payment()

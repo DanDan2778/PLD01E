@@ -1,3 +1,4 @@
+
 import laboratory_5
 # Initialization and Getting the Values of Student Information
 student = laboratory_5.Student()

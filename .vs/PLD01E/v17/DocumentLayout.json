@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\Desktop\\repository\\PLD01E\\LABORATORY 5\\5C-2.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LABORATORY 5\\5C-2.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\Desktop\\repository\\PLD01E\\GUI\\sample-gui.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GUI\\sample-gui.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\Desktop\\repository\\PLD01E\\GUI\\system checker.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GUI\\system checker.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\Desktop\\repository\\PLD01E\\GUI\\information_sheet.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GUI\\information_sheet.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\Desktop\\repository\\PLD01E\\Midterm-Exam\\midterm-exam-display.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Midterm-Exam\\midterm-exam-display.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\Desktop\\repository\\PLD01E\\Midterm-Exam\\midterm_exam.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Midterm-Exam\\midterm_exam.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\Desktop\\repository\\PLD01E\\LABORATORY 5\\5A-2.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LABORATORY 5\\5A-2.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\Desktop\\repository\\PLD01E\\LABORATORY 5\\5B.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LABORATORY 5\\5B.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\Desktop\\repository\\PLD01E\\QUIZ MIDTERM\\midterm-quiz.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QUIZ MIDTERM\\midterm-quiz.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\Desktop\\repository\\PLD01E\\LABORATORY 5\\laboratory_5.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LABORATORY 5\\laboratory_5.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\Desktop\\repository\\PLD01E\\LABORATORY 5\\laboratory-5A.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LABORATORY 5\\laboratory-5A.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\Desktop\\repository\\PLD01E\\Laboratory 2\\Problem_2.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Laboratory 2\\Problem_2.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +46,126 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "laboratory-5A.py",
-              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\LABORATORY 5\\laboratory-5A.py",
-              "RelativeDocumentMoniker": "LABORATORY 5\\laboratory-5A.py",
-              "ToolTip": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\LABORATORY 5\\laboratory-5A.py",
-              "RelativeToolTip": "LABORATORY 5\\laboratory-5A.py",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADsAAAA+AAAAAAAAAA==",
+              "Title": "midterm_exam.py",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\Midterm-Exam\\midterm_exam.py",
+              "RelativeDocumentMoniker": "Midterm-Exam\\midterm_exam.py",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\Midterm-Exam\\midterm_exam.py",
+              "RelativeToolTip": "Midterm-Exam\\midterm_exam.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2024-11-08T14:03:24.797Z",
+              "WhenOpened": "2024-11-16T00:24:38.342Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "midterm-exam-display.py",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\Midterm-Exam\\midterm-exam-display.py",
+              "RelativeDocumentMoniker": "Midterm-Exam\\midterm-exam-display.py",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\Midterm-Exam\\midterm-exam-display.py",
+              "RelativeToolTip": "Midterm-Exam\\midterm-exam-display.py",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-11-16T01:41:33.66Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "5C-2.py",
-              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\LABORATORY 5\\5C-2.py",
-              "RelativeDocumentMoniker": "LABORATORY 5\\5C-2.py",
-              "ToolTip": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\LABORATORY 5\\5C-2.py",
-              "RelativeToolTip": "LABORATORY 5\\5C-2.py",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAA/AAAAAAAAAA==",
+              "Title": "sample-gui.py",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\GUI\\sample-gui.py",
+              "RelativeDocumentMoniker": "GUI\\sample-gui.py",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\GUI\\sample-gui.py",
+              "RelativeToolTip": "GUI\\sample-gui.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2024-11-08T17:52:28.389Z",
+              "WhenOpened": "2024-12-07T00:41:09.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "system checker.py",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\GUI\\system checker.py",
+              "RelativeDocumentMoniker": "GUI\\system checker.py",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\GUI\\system checker.py",
+              "RelativeToolTip": "GUI\\system checker.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-12-07T00:38:12.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "5B.py",
-              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\LABORATORY 5\\5B.py",
-              "RelativeDocumentMoniker": "LABORATORY 5\\5B.py",
-              "ToolTip": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\LABORATORY 5\\5B.py",
-              "RelativeToolTip": "LABORATORY 5\\5B.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
+              "Title": "information_sheet.py",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\GUI\\information_sheet.py",
+              "RelativeDocumentMoniker": "GUI\\information_sheet.py",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\GUI\\information_sheet.py",
+              "RelativeToolTip": "GUI\\information_sheet.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2024-11-08T17:43:53.461Z"
+              "WhenOpened": "2024-12-07T00:33:42.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
+              "Title": "Problem_2.py",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\Laboratory 2\\Problem_2.py",
+              "RelativeDocumentMoniker": "Laboratory 2\\Problem_2.py",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\Laboratory 2\\Problem_2.py",
+              "RelativeToolTip": "Laboratory 2\\Problem_2.py",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-11-16T00:36:28.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "5A-2.py",
               "DocumentMoniker": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\LABORATORY 5\\5A-2.py",
               "RelativeDocumentMoniker": "LABORATORY 5\\5A-2.py",
               "ToolTip": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\LABORATORY 5\\5A-2.py",
               "RelativeToolTip": "LABORATORY 5\\5A-2.py",
-              "ViewState": "AgIAADIAAAAAAAAAAAAkwFIAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2024-11-08T17:14:01.85Z"
+              "WhenOpened": "2024-11-09T04:21:03.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "midterm-quiz.py",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\QUIZ MIDTERM\\midterm-quiz.py",
+              "RelativeDocumentMoniker": "QUIZ MIDTERM\\midterm-quiz.py",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\QUIZ MIDTERM\\midterm-quiz.py",
+              "RelativeToolTip": "QUIZ MIDTERM\\midterm-quiz.py",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAADwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-11-09T03:43:20.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "laboratory_5.py",
               "DocumentMoniker": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\LABORATORY 5\\laboratory_5.py",
               "RelativeDocumentMoniker": "LABORATORY 5\\laboratory_5.py",
               "ToolTip": "C:\\Users\\danie\\Desktop\\repository\\PLD01E\\LABORATORY 5\\laboratory_5.py",
               "RelativeToolTip": "LABORATORY 5\\laboratory_5.py",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAtwBQAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2024-11-08T15:58:18.931Z"
+              "WhenOpened": "2024-11-16T00:34:45.474Z"
             }
           ]
         }
