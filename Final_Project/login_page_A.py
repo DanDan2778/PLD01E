@@ -7,8 +7,7 @@ from anaconda_cloud_auth import login
 
 import gui_design as gui
 
-window = tk.Tk()
-window.geometry('700x850')
+
 class LoginPage:
     def __init__(self, window):
         self.window = window
@@ -34,12 +33,13 @@ class LoginPage:
         label = Label(self.window, text='Login Page', bg='#D9D9D9', font=('Calibre', 25))
         label.place(x=390, y=100)
 
-    #def login_details(self):
+    def login_details(self):
+        self.gui.frames(0, 150, 1540, 100, 'blue')
 
 
-
-
-loginpage = LoginPage(window)
+"""window = tk.Tk()
+window.geometry('700x850')"""
+"""loginpage = LoginPage(window)
 loginpage.header()
-#loginpage.login_details()
-window.mainloop()
+loginpage.login_details()
+window.mainloop()"""
