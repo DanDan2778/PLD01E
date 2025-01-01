@@ -103,9 +103,8 @@ gui.button_design(567, y, 'Update', '#5499c7', 'white', 'blue', 2, 6, pady)
 gui.button_design(625, y, 'New', '#f4d03f', 'white', 'blue', 1, 4, pady)
 
 
-
-x_textbox_left = 180
 # Windows Left Side
+x_textbox_left = 180
 # Employee Number
 gui.label_design(40, 280, 'Employee Number: ')
 gui.textbox_design1(x_textbox_left, 280)
@@ -149,13 +148,10 @@ gui.textbox_design_disabled(x_textbox_left, 710, '')
 # Summary Income
 gui.title_design(20, 740, 'Summary Income', 13)
 # Gross Income
-gui.label_design(40, 790, 'Gross Income: ')
-gui.textbox_design_disabled(x_textbox_left, 790, '')
+gui.label_design(40, 780, 'Gross Income: ')
+gui.textbox_design_disabled(x_textbox_left, 780, '')
 # Net Income
-gui.label_design(40, 820, 'Net Income: ')
-gui.textbox_design_disabled(x_textbox_left, 820, '')
-
-
-
+gui.label_design(40, 810, 'Net Income: ')
+gui.textbox_design_disabled(x_textbox_left, 810, '')
 
 mainloop()

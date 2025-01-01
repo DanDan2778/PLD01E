@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import *
 from PIL import Image, ImageTk
 
-
 # Window Class
 class GuiDesign:
     def __init__(self, window):

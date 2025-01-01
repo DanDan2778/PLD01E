@@ -1,12 +1,12 @@
-# Getting the Student's Name, Final quizzes, Final Research/Assignment, Final Project, and Final Exam
+# Getting the Student's Name, Final quizzes, Final Research/Assignment, Final_Project, and Final Exam
 
 students_name = input("Student's Name: ")
 final_quiz = float(input("Final Quiz: "))
 final_research = float(input("Final Research/Assignment: "))
-final_project = float(input("Final Project: "))
+final_project = float(input("Final_Project: "))
 final_exam = float(input("Final Exam:"))
 
-# Setting the Formula for Ginal Grade Using the Inputted Values of Final Quizzes, Final Research/Assignment, Final Project, and Final Exam
+# Setting the Formula for Ginal Grade Using the Inputted Values of Final Quizzes, Final Research/Assignment, Final_Project, and Final Exam
 
 final_grade = round(0.30 * final_quiz + 0.10 * final_research + 0.40 * final_exam +  0.20 * final_project)
 
@@ -43,11 +43,11 @@ elif final_grade < 60:
 else:
     remark =    "Final Grade Exceeded 100"
 
-# Displaying the Student's Name, Final Quizzes, Final Research/Assignment, Final Project, Final Grade, and Equivalent Grading Remark
+# Displaying the Student's Name, Final Quizzes, Final Research/Assignment, Final_Project, Final Grade, and Equivalent Grading Remark
 
 print("Student's Name:", students_name)
 print("Final Quizzes:", final_quiz)
 print("Final Research/Assignments: ", final_research)
-print("Final Project:", final_project)
+print("Final_Project:", final_project)
 print("Final Grade:", f"{final_grade:.2f}")
 print("Equivalent Grading Remark:", remark)
