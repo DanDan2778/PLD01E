@@ -60,7 +60,7 @@ class GuiDesign:
         self.textbox.config(state='disabled')
         self.textbox.place(x=x, y=y)
     def textbox_design3(self, x, y, width, height, fg, font_size):
-        self.textbox = Text(self.window, width=width, height=height, fg=fg, bg='white', font=('Times New Roman', font_size), bd = 2,highlightthickness=0, relief='groove')
+        self.textbox = Text(self.window, width=width, height=height, fg=fg, bg='#f0f0f0', font=('Times New Roman', font_size), bd = 2,highlightthickness=0, relief='groove')
         self.textbox.place(x=x, y=y)
 
     def textbox_design4(self, x, y, width, height, fg, font_size):

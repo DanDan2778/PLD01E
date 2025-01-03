@@ -216,7 +216,7 @@ class AssessmentForm:
         self.gui.button_design(1380, 825, 'Update', 'green', 'black', 'black', 2, 6, 3)
         self.gui.button_design(1333, 825, 'New', 'green', 'black', 'black', 2, 4, 3)
 
-# Calling Out the Assessment Form
+# Calling Outthe Assessment Form
 assessment_form = AssessmentForm()
 assessment_form.header()
 assessment_form.student_information()

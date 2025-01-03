@@ -116,13 +116,13 @@ provincetxt = my_gui_design.label_design(232, 645, 'Province')
 zip_codetxt = my_gui_design.label_design(498, 645, 'Zip Code')
 countrytxt = my_gui_design.label_design(764, 645, 'Country')
 picturepathtxt = my_gui_design.label_design(1024, 645, 'Picture Path of Uploaded Image')
-# Combobox creation
-n = tk.StringVar()
-combo_field = ttk.Combobox(window, width = 30, textvariable = n)
-# Adding combobox drop down list
-combo_field['values'] = (' Female', ' Male ', ' Unidentified')
-combo_field.place(x=450, y=330)
-combo_field.current()
+# Combobox creationn = tk.StringVar()
+# combo_field = ttk.Combobox(window, width = 30, textvariable = n)
+# # Adding combobox drop down list
+# combo_field['values'] = (' Female', ' Male ', ' Unidentified')
+# combo_field.place(x=450, y=330)
+# combo_field.current()
+
 # Adding combox for civil status
 # Combobox creation
 n = tk.StringVar()

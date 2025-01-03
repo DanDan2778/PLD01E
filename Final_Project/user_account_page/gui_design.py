@@ -59,6 +59,13 @@ class GuiDesign:
         self.textbox.insert(0, text)
         self.textbox.config(state='disabled')
         self.textbox.place(x=x, y=y)
+
+    def textbox_design_disabled2(self, x, y, text, width):
+        self.textbox = Entry(self.window, width=width, fg='black', font=('Arial', 12), bd = 2,highlightthickness=0, relief='groove')
+        self.textbox.insert(0, text)
+        self.textbox.config(state='disabled')
+        self.textbox.place(x=x, y=y)
+
     def textbox_design3(self, x, y, width, height, fg, font_size):
         self.textbox = Text(self.window, width=width, height=height, fg=fg, bg='white', font=('Times New Roman', font_size), bd = 2,highlightthickness=0, relief='groove')
         self.textbox.place(x=x, y=y)

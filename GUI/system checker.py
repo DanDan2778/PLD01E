@@ -606,7 +606,7 @@ root.mainloop()
 """
 
 
-# DESTROY NEW WINDOW
+"""# DESTROY NEW WINDOW
 import tkinter as tk
 
 
@@ -639,4 +639,50 @@ open_button = tk.Button(root, text="Open New Window", command=open_new_window)
 open_button.pack(pady=50)
 
 # Start the Tkinter event loop
+root.mainloop()
+"""
+
+import tkinter as tk
+from tkinter import ttk
+from tkcalendar import Calendar
+
+class DatePickerApp:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Date Picker Example")
+
+        # Create the Entry widget (text box) where the selected date will be displayed
+        self.date_entry = ttk.Entry(root, width=20)
+        self.date_entry.grid(row=0, column=0, padx=10, pady=10)
+
+        # Create a Button to open the calendar
+        self.calendar_button = ttk.Button(root, text="Select Date", command=self.show_calendar)
+        self.calendar_button.grid(row=0, column=1, padx=10, pady=10)
+
+        # Placeholder for calendar popup
+        self.calendar_popup = None
+
+    def show_calendar(self):
+        # Create the calendar popup if it doesn't already exist
+        if self.calendar_popup is None or not self.calendar_popup.winfo_exists():
+            self.calendar_popup = Calendar(self.root, selectmode='day', date_pattern='yyyy-mm-dd')
+            self.calendar_popup.grid(row=1, column=0, columnspan=2, padx=10, pady=10)
+
+            # Bind the calendar selection event
+            self.calendar_popup.bind("<<CalendarSelected>>", self.on_date_selected)
+
+    def on_date_selected(self, event):
+        # Get the selected date from the calendar and insert it into the entry widget
+        selected_date = self.calendar_popup.get_date()
+        self.date_entry.delete(0, tk.END)  # Clear current entry text
+        self.date_entry.insert(0, selected_date)  # Insert the selected date
+
+        # Hide the calendar after selecting the date
+        self.calendar_popup.grid_forget()
+
+# Create the main tkinter window
+root = tk.Tk()
+app = DatePickerApp(root)
+
+# Start the tkinter event loop
 root.mainloop()
